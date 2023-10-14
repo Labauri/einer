@@ -10,7 +10,7 @@
 
 .breadcrumbs-list__link {
   color: #929292;
-  font-family: 'KantumruyPro';
+  font-family: "KantumruyPro";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -20,7 +20,7 @@
 
 .breadcrumbs-list__link--active {
   color: #0b54e4;
-  font-family: 'KantumruyPro';
+  font-family: "KantumruyPro";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -50,12 +50,25 @@
 
 .goods-slider__title {
   color: #000000;
-  font-family: 'Play';
+  font-family: "Play";
   font-size: 35px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   width: 600px;
+}
+
+.goods-slider__pic {
+  width: 468px;
+  height: 468px;
+}
+
+.goods-slider__picItem {
+  display: none;
+}
+
+.goods-slider__picItem--active {
+  display: block;
 }
 
 .swiper-block {
@@ -78,6 +91,10 @@
   cursor: pointer;
 }
 
+.swiper-slide--active {
+  opacity: 0.5;
+}
+
 .swiper-slide img {
   display: block;
   object-fit: cover;
@@ -92,7 +109,8 @@
 
 .swiper-wrapper {
   display: block;
-  position: relative
+  position: relative;
+  width: fit-content;
 }
 
 .swiper-wrapper__flex {
@@ -105,7 +123,7 @@
 .swiper-button__prev {
   position: absolute;
   background: #ffffff;
-  background-image: url('../icons/arrow-left-state.svg');
+  background-image: url("../icons/arrow-left-state.svg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 31px;
@@ -120,14 +138,14 @@
 .swiper-button__next {
   position: absolute;
   background: #0b54e4;
-  background-image: url('../icons/arrow-right-state.svg');
+  background-image: url("../icons/arrow-right-state.svg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 31px;
   height: 32px;
   z-index: 30;
   bottom: 80px;
-  right: 665px;
+  right: 30px;
   border-radius: 50%;
   cursor: pointer;
 }
@@ -196,7 +214,7 @@
 
 .goods-price__price {
   color: #000000;
-  font-family: 'Play';
+  font-family: "Play";
   font-size: 35px;
   font-style: normal;
   font-weight: 700;
@@ -206,7 +224,7 @@
 .product-state__text {
   color: #7b7b7b;
   text-align: right;
-  font-family: 'Play';
+  font-family: "Play";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -225,7 +243,7 @@
 
 .product-state__buy {
   color: #0a5bfc;
-  font-family: 'Play';
+  font-family: "Play";
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -265,7 +283,7 @@
 
 #counter {
   color: #000000;
-  font-family: 'Play';
+  font-family: "Play";
   font-size: 35px;
   font-style: normal;
   font-weight: 700;
@@ -275,7 +293,7 @@
 
 #minus {
   color: #000000;
-  font-family: 'Play';
+  font-family: "Play";
   font-size: 35px;
   font-style: normal;
   font-weight: 700;
@@ -287,7 +305,7 @@
 
 #plus {
   color: #000000;
-  font-family: 'Play';
+  font-family: "Play";
   font-size: 35px;
   font-style: normal;
   font-weight: 700;
@@ -311,9 +329,9 @@
   margin-top: 53px;
 }
 
-.goods-info__title{
+.goods-info__title {
   color: #a9a9a9;
-  font-family: 'KantumruyPro';
+  font-family: "KantumruyPro";
   font-size: 16px;
   font-style: normal;
   font-weight: 300;
@@ -327,14 +345,15 @@
   margin-top: 30px;
 }
 
-.left-column, .right-column {
+.left-column,
+.right-column {
   width: 50%;
 }
 
 .characteristic {
   margin-bottom: 20px;
   color: #a9a9a9;
-  font-family: 'KantumruyPro';
+  font-family: "KantumruyPro";
   font-size: 16px;
   font-style: normal;
   font-weight: 300;
@@ -344,7 +363,7 @@
 .characteristic-value {
   margin-bottom: 20px;
   color: #a9a9a9;
-  font-family: 'KantumruyPro';
+  font-family: "KantumruyPro";
   font-size: 16px;
   font-style: normal;
   font-weight: 300;
@@ -356,7 +375,7 @@
   background-color: #ffffff;
   border: 1px solid #0a5bfc;
   text-align: center;
-  font-family: 'Play';
+  font-family: "Play";
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -385,7 +404,7 @@
 
 .goods-instruction__text {
   color: #0a5bfc;
-  font-family: 'KantumruyPro';
+  font-family: "KantumruyPro";
   font-size: 16px;
   font-style: normal;
   font-weight: 300;
@@ -417,7 +436,7 @@
 
 .goods-description {
   color: #626262;
-  font-family: 'KantumruyPro';
+  font-family: "KantumruyPro";
   text-align: left;
   font-size: 16px;
   font-style: normal;
@@ -457,7 +476,7 @@
 
 .peculiarities-list__link {
   color: #626262;
-  font-family: 'KantumruyPro';
+  font-family: "KantumruyPro";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -489,7 +508,7 @@
 
 .comtibility-list__link {
   color: #a9a9a9;
-  font-family: 'KantumruyPro';
+  font-family: "KantumruyPro";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -508,7 +527,7 @@
 
 .goods-comtibility__text {
   color: #0a5bfc;
-  font-family: 'Play';
+  font-family: "Play";
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
