@@ -1,0 +1,77 @@
+.search-popular__product {
+  margin: 5vw auto 30px;
+}
+
+.search-title {
+  color: #cacaca;
+  font-family: 'Play';
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.section-popular__product-text {
+  color: #0b54e4;
+  font-family: 'Play';
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.search-product__text {
+  color: #626262;
+  font-family: 'Futura PT';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 151.664%;
+}
+
+.product-container {
+  display: flex;
+  gap: 16px;
+  justify-content: flex-start;
+}
+
+.answer-container {
+  z-index: 10;
+}
+
+.search-application__block {
+  margin: 5vw auto;
+  width: 1100px;
+}
+
+.search-application__button {
+  padding: 15px 20px;
+  transition: all 0.3s ease;
+}
+
+.search-application__title {
+  color: #999999;
+  font-family: 'KantumruyPro';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 151.664%;
+  margin-bottom: 25px;
+  width: 392px;
+}
+
+.product-button__block {
+  position: relative;
+}
+
+.basket-icon {
+  position: absolute;
+  bottom: 6px;
+  left: 50px;
+  transition: all 0.3s ease;
+}
+
+.product-button__price:hover path {
+  fill: #0a5bfc;
+  transition: all 0.3s ease;
+}

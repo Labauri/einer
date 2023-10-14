@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  background-color: #ffffff;
+}
+
+.link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: blueviolet;
+}

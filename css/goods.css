@@ -1,0 +1,522 @@
+.breadcrumbs-block {
+  margin: 55px auto;
+  width: 1100px;
+}
+
+.breadcrumbs-list {
+  display: flex;
+  gap: 5px;
+}
+
+.breadcrumbs-list__link {
+  color: #929292;
+  font-family: 'KantumruyPro';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 151.664%;
+  transition: all 0.3s ease;
+}
+
+.breadcrumbs-list__link--active {
+  color: #0b54e4;
+  font-family: 'KantumruyPro';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 151.664%;
+}
+
+.breadcrumbs-circle--active {
+  color: #0b54e4;
+}
+
+.breadcrumbs-list__link:hover {
+  color: #0b54e4;
+  transition: all 0.3s ease;
+}
+
+.breadcrumbs-list__link:active {
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+
+.goods-slider__block {
+  margin: 0 auto;
+  width: 1100px;
+  border-bottom: 1px solid #0b54e4;
+  padding-bottom: 30px;
+}
+
+.goods-slider__title {
+  color: #000000;
+  font-family: 'Play';
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 600px;
+}
+
+.swiper-block {
+  margin: 60px auto;
+  width: 1100px;
+  position: relative;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  width: 80px;
+  position: relative;
+  cursor: pointer;
+}
+
+.swiper-slide img {
+  display: block;
+  object-fit: cover;
+}
+
+.swiper {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-wrapper {
+  display: block;
+  position: relative
+}
+
+.swiper-wrapper__flex {
+  display: flex;
+  width: 440px;
+  justify-content: flex-end;
+  gap: 2px;
+}
+
+.swiper-button__prev {
+  position: absolute;
+  background: #ffffff;
+  background-image: url('../icons/arrow-left-state.svg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 31px;
+  height: 32px;
+  z-index: 30;
+  bottom: 80px;
+  left: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.swiper-button__next {
+  position: absolute;
+  background: #0b54e4;
+  background-image: url('../icons/arrow-right-state.svg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 31px;
+  height: 32px;
+  z-index: 30;
+  bottom: 80px;
+  right: 665px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.goods-container {
+  display: flex;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.goods-slider {
+  flex: 1;
+  padding: 20px;
+  width: 50%;
+  position: relative;
+}
+
+.goods-info {
+  flex: 1;
+  width: 50%;
+  z-index: 100;
+}
+
+.goods-price__block {
+  margin-top: 92px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.goods-dots__list {
+  display: flex;
+  position: absolute;
+  gap: 5px;
+  top: 35px;
+  left: 185px;
+  cursor: pointer;
+}
+
+.goods-dots__list-item {
+  font-size: 0;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: #c8c8c8;
+  transition: all 0.3s ease;
+}
+
+.goods-dots__list-item:hover {
+  background-color: #0a5bfc;
+  transition: all 0.3s ease;
+}
+
+.goods-dots__list-item--active {
+  background-color: #0a5bfc;
+  filter: drop-shadow(1px 1px 6px rgba(10, 91, 252, 0.77));
+  transition: all 0.3s ease;
+}
+
+.goods-dots__icon {
+  position: absolute;
+  top: 25px;
+  left: 415px;
+}
+
+.goods-price__price {
+  color: #000000;
+  font-family: 'Play';
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.product-state__text {
+  color: #7b7b7b;
+  text-align: right;
+  font-family: 'Play';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.product-state__line-block {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.product-state__buy__block {
+  margin-top: 15px;
+}
+
+.product-state__buy {
+  color: #0a5bfc;
+  font-family: 'Play';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 15px;
+  border-bottom: 1px solid #0a5bfc;
+  padding-bottom: 5px;
+  transition: all 0.3s ease;
+}
+
+.product-state__buy:hover {
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.add-basket__count {
+  margin-top: 59px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.product-button__block {
+  position: relative;
+}
+
+.product-basket {
+  padding: 14px 31px 14px 64px;
+}
+
+.basket-icon {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  transition: all 0.3s ease;
+}
+
+#counter {
+  color: #000000;
+  font-family: 'Play';
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  transition: all 0.3s ease;
+}
+
+#minus {
+  color: #000000;
+  font-family: 'Play';
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+#plus {
+  color: #000000;
+  font-family: 'Play';
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+#plus:hover {
+  color: #0a5bfc;
+  transition: all 0.3s ease;
+}
+
+#minus:hover {
+  color: #0a5bfc;
+  transition: all 0.3s ease;
+}
+
+.goods-info__block {
+  margin-top: 53px;
+}
+
+.goods-info__title{
+  color: #a9a9a9;
+  font-family: 'KantumruyPro';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 112.164%;
+  width: 350px;
+}
+
+.characteristics-table {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.left-column, .right-column {
+  width: 50%;
+}
+
+.characteristic {
+  margin-bottom: 20px;
+  color: #a9a9a9;
+  font-family: 'KantumruyPro';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 145.164%;
+}
+
+.characteristic-value {
+  margin-bottom: 20px;
+  color: #a9a9a9;
+  font-family: 'KantumruyPro';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 145.164%;
+}
+
+.characteristics-table__button {
+  color: #0a5bfc;
+  background-color: #ffffff;
+  border: 1px solid #0a5bfc;
+  text-align: center;
+  font-family: 'Play';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 166px;
+  padding: 13px 0;
+  transition: all 0.3 ease;
+}
+
+.characteristics-table__button:hover {
+  color: #ffffff;
+  background-color: #0a5bfc;
+  transition: all 0.3 ease;
+}
+
+.goods-download__picture {
+  position: absolute;
+  bottom: 25px;
+  left: 53px;
+}
+
+.goods-instruction__block {
+  margin-left: 90px;
+  margin-bottom: 5px;
+}
+
+.goods-instruction__text {
+  color: #0a5bfc;
+  font-family: 'KantumruyPro';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 145.164%;
+  border-bottom: 1px solid #0a5bfc;
+  padding-bottom: 5px;
+  transition: all 0.3s ease;
+}
+
+.goods-instruction__text:hover {
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.goods-title {
+  width: 600px;
+}
+
+.goods-section__title {
+  margin: 75px auto;
+}
+
+.goods-description__block {
+  margin: 43px auto;
+  width: 1100px;
+  border-bottom: 1px solid #d8d8d8;
+  padding-bottom: 25px;
+}
+
+.goods-description {
+  color: #626262;
+  font-family: 'KantumruyPro';
+  text-align: left;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125.164%;
+  width: 870px;
+}
+
+.goods-description__indentation {
+  margin-bottom: 20px;
+}
+
+.goods-width__manufacturing {
+  width: 780px;
+}
+
+.peculiarities-block {
+  margin: 75px auto;
+  width: 1100px;
+  border-bottom: 1px solid #d8d8d8;
+  padding-bottom: 40px;
+}
+
+.goods-peculiarities {
+  width: 730px;
+}
+
+.peculiarities-list {
+  margin-top: 31px;
+  display: flex;
+  flex-direction: column;
+}
+
+.peculiarities-list__item {
+  transition: all 0.3s ease;
+}
+
+.peculiarities-list__link {
+  color: #626262;
+  font-family: 'KantumruyPro';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125.164%;
+  transition: all 0.3s ease;
+}
+
+.peculiarities-list__link:hover {
+  color: #0a5bfc;
+  transition: all 0.3s ease;
+}
+
+.comtibility-block {
+  margin: 75px auto;
+  width: 1100px;
+  border-bottom: 1px solid #0a5bfc;
+  padding-bottom: 40px;
+}
+
+.comtibility-list {
+  margin-top: 31px;
+  display: flex;
+  flex-direction: column;
+}
+
+.comtibility-list__item {
+  transition: all 0.3s ease;
+}
+
+.comtibility-list__link {
+  color: #a9a9a9;
+  font-family: 'KantumruyPro';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125.164%;
+  transition: all 0.3s ease;
+}
+
+.comtibility-list__link:hover {
+  color: #0a5bfc;
+  transition: all 0.3s ease;
+}
+
+.goods-comtibility__text-block {
+  margin-top: 15px;
+}
+
+.goods-comtibility__text {
+  color: #0a5bfc;
+  font-family: 'Play';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-bottom: 1px solid #0a5bfc;
+  padding-bottom: 3px;
+}
+
+.goods-comtibility__text:hover {
+  border: none;
+}
