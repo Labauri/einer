@@ -1,0 +1,27 @@
+.basket-goods__text {
+  width: 230px;
+}
+
+.popular-product__list-item:after {
+  width: 53%;
+}
+
+.product-not__found-block {
+  width: 1100px;
+  margin: 54px auto;
+}
+
+.product-not__found-text {
+  color: #999999;
+  font-family: 'KantumruyPro';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 151.664%;
+  width: 392px;
+}
+
+.continue-shopping__button {
+  margin-top: 20px;
+  padding: 15px 12px;
+}
