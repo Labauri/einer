@@ -1,0 +1,281 @@
+.basket-goods__text {
+  color: #626262;
+  font-family: 'Futura PT';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 151.664%;
+  width: 154px;
+}
+
+.basket-goods__count {
+  color: #0B54E4;
+  font-family: 'Play';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.popular-product__list-item:after {
+  width: 82%;
+}
+
+.basket-goods__block {
+  width: 1100px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.basket-goods__block-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 45px;
+}
+
+.basket-goods__block-flex--border {
+  border-bottom: 1px solid #d8d8d8;
+  padding-bottom: 70px;
+}
+
+.basket-goods__title {
+  color: #0b54e4;
+  font-family: 'Play';
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 410px;
+}
+
+.basket-add__count-block {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #0b54e4;
+  padding-bottom: 36px;
+  width: 845px;
+}
+
+.basket-add__count-margin {
+  margin-top: 0;
+  padding-bottom: 26px;
+  display: flex;
+  align-items: center;
+  padding-top: 25px;
+  justify-content: space-between;
+}
+
+.product-action__block {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.basket-add {
+  color: #bfbfbf;
+  font-family: 'Play';
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.basket-add:hover {
+  transition: all 0.3s ease;
+  color: #0b54e4;
+}
+
+.basket-add__count {
+  color: #0b54e4;
+  font-family: 'Play';
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.recalculate-price {
+  color: #949494;
+  font-family: 'KantumruyPro';
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170.164%;
+  margin-left: 10px;
+}
+
+.basket-description__block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.basket-vendor__code {
+  color: #949494;
+  font-family: 'KantumruyPro';
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170.164%;
+}
+
+.basket-goods__description {
+  color: #0b54e4;
+  font-family: 'KantumruyPro';
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170.164%;
+}
+
+.basket-goods__description:hover {
+  text-decoration: underline;
+}
+
+.basket-price__block {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.basket-close__block {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.basket-goods__price {
+  color: #0b54e4;
+  font-family: 'Play';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.basket-tooltip {
+  display: none;
+  position: absolute;
+  color: #ffffff;
+  font-family: 'KantumruyPro';
+  background-color: #000000;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 112.164%;
+  text-align: center;
+  border-radius: 2px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 127px;
+  transform: translateX(-50%);
+  left: 163px;
+  bottom: 47px;
+}
+
+#basketIcon:hover .basket-tooltip {
+  display: block;
+}
+
+.product-action {
+  color: #bfbfbf;
+  font-family: 'Play';
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.product-action:hover {
+  transition: all 0.3s ease;
+  color: #0b54e4;
+}
+
+.product-action__count {
+  color: #0b54e4;
+  font-family: 'Play';
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.product-price {
+  padding-top: 0;
+}
+
+.basket-price__sale {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: end;
+  position: relative;
+}
+
+.product-sale {
+  top: -15px;
+  right: 0;
+}
+
+.tooltip-indentation {
+  left: 81px;
+  bottom: 14px;
+}
+
+.basket-total__price-block {
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+.basket-total__text {
+  color: #0b54e4;
+  text-align: right;
+  font-family: 'Play';
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.basket-total__price {
+  color: #0b54e4;
+  text-align: right;
+  font-family: 'Play';
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.basket-button__block {
+  width: 1100px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.basket-button {
+  width: 300px;
+  padding: 18px 0;
+}
+

@@ -1,0 +1,147 @@
+.catalog-main__list-block {
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 81px;
+}
+
+.catalog-main__list {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 44px;
+  height: 75px;
+}
+
+.catalog-main__list {
+  display: flex;
+  justify-content: center;
+}
+
+.catalog-main__list-item {
+  width: 100px;
+}
+
+.catalog-main__list-item--width {
+  width: 125px;
+}
+
+.catalog-main__list-link--active {
+  color: #0a5bfc !important;
+  transition: all 0.3s ease;
+}
+
+.catalog-main__list-link {
+  color: #969696;
+  text-align: center;
+  font-family: 'KantumruyPro';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 212.164%;
+  transition: all 0.3s ease;
+}
+
+.catalog-main__list-item:hover {
+  color: #0a5bfc;
+  transition: all 0.3s ease;
+}
+
+.catalog-main__list-item:hover .catalog-main__list-link {
+  color: #0a5bfc;
+  transition: all 0.3s ease;
+}
+
+svg path {
+  transition: all 0.3s ease;
+}
+
+.catalog-main__list-item:hover svg path {
+  fill: #0a5bfc;
+  transition: all 0.3s ease;
+}
+
+.manufacturer-popup {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  filter: drop-shadow(0px 0px 11px rgba(0, 0, 0, 0.20));
+  z-index: 1;
+}
+
+.popup-content {
+  padding: 20px;
+  width: 163px;
+  height: 223px;
+}
+
+.manufacturer-popup::before {
+  content: '';
+  position: absolute;
+  top: -5%;
+  left: 29%;
+  z-index: 5;
+  border-width: 0px 5px 11px;
+  border-style: solid;
+  border-color: transparent transparent #fff transparent;
+}
+
+.manufacturer-popup.show {
+  display: block;
+  margin-top: 15px;
+}
+
+.manufacturer-list {
+  padding: 0;
+}
+
+.manufacturer-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.manufacturer-list__link {
+  color: #a9a9a9;
+  font-family: 'KantumruyPro';
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.manufacturer-list__link:hover {
+  color: #0a5bfc;
+}
+
+.checkbox {
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
+  border: 0.3px solid #b7b7b7;
+  background: #ffffff;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.checkbox.checked {
+  background: url(../icons/mark-popup.svg) no-repeat 50% 50%;
+}
+
+.checkbox.checked {
+  background: url(../icons/mark-popup.svg) no-repeat 50% 50%;
+}
+
+.manufacturer-list li.active .checkbox:before {
+  background: url(../icons/mark-popup.svg) no-repeat 50% 50%;
+}
+
+.manufacturer-list li:hover .checkbox {
+  border-color: #277eff;
+}
+
+.manufacturer-list a:hover + .checkbox,
+.manufacturer-list .checked:hover {
+  border-color: #0a5bfc;
+}

@@ -1,0 +1,25 @@
+.order-form__area-block {
+  margin-top: 28px;
+}
+
+.order-form__area {
+  width: 709px;
+  height: 96px;
+  border: 1px solid #0b54e4;
+  color: #0b54e4;
+  font-family: 'KantumruyPro';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170.164%;
+  padding-top: 13px;
+  padding-left: 47px;
+  outline: none;
+  resize: none;
+  transition: all 0.3s ease;
+}
+
+.order-form__area:hover {
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}

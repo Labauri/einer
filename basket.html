@@ -5,6 +5,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
 		<link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/search.css"/>
+    <link rel="stylesheet" href="css/basket.css"/>
 		<title>Einer</title>
 	</head>
 	<body>
@@ -337,183 +339,87 @@
     </ul>
     <button class="select-button button">Применить</button>
   </section>
-  <section class="section-moto__info">
-    <div class="image-switcher">
-      <a class="switcher-dot active" href="#" data-target="block1"></a>
-      <a class="switcher-dot" href="#" data-target="block2"></a>
-      <a class="switcher-dot" href="#" data-target="block3"></a>
-    </div>
-    <div id="block1" class="content-block content-active">
-      <div class="section-moto__block">
-        <h2 class="section-moto__title">Запчасти и тюнинг для мотоциклов BMW</h2>
-        <p class="section-moto__text">Айнер – интернет-магазин запчастей, аксессуаров и тюнинга для мотоциклов BMW. Выбирайте мотоцикл в верхней части страницы, заказывайте детали в Москве с доставкой по России! Сейчас сайт в стадии наполнения, не все позиции внесены в каталог. Если вы не нашли нужную деталь, звоните + 7 (999) 000-00-00, скорее всего она есть на складе, но ещё не попала на сайт!</p>
-        <p class="section-moto__description margin">Более 8 750 товаров в наличии</p>
-      </div>
-      <div class="moto-pre__button-block">
-        <button class="moto-pre__button button">Узнать больше</button>
-      </div>
-      <img class="main-moto-picture" width="626" height="620" src="images/main-moto-picture.png" alt="Картинка запчастей мотоцикла BMW">
-    </div>
-    <div id="block2" class="content-block">
-      <div class="section-moto__block">
-        <h2 class="section-moto__title">Регулируемые подножки Gilles</h2>
-        <p class="section-moto__text">Айнер – интернет-магазин запчастей, аксессуаров и тюнинга для мотоциклов BMW. Выбирайте мотоцикл в верхней части страницы, заказывайте детали в Москве с доставкой по России! Сейчас сайт в стадии наполнения, не все позиции внесены в каталог. Если вы не нашли нужную деталь, звоните + 7 (999) 000-00-00, скорее всего она есть на складе, но ещё не попала на сайт!</p>
-        <p class="section-moto__description-price margin">от 41 900₽</p>
-        <p class="product-price section-moto">48000 руб.</p>
-      </div>
-      <div class="moto-pre__button-block">
-        <button class="moto-pre__button button">Узнать больше</button>
-      </div>
-      <img class="main-moto-picture" width="626" height="620" src="images/regulation-moto-picture.png" alt="Картинка запчастей мотоцикла BMW">
-    </div>
-    <div id="block3" class="content-block">
-      <div class="section-moto__block">
-        <h2 class="section-moto__title protection-title">Мотоцикл под защитой</h2>
-        <p class="section-moto__text">Айнер – интернет-магазин запчастей, аксессуаров и тюнинга для мотоциклов BMW. Выбирайте мотоцикл в верхней части страницы, заказывайте детали в Москве с доставкой по России! Сейчас сайт в стадии наполнения, не все позиции внесены в каталог. Если вы не нашли нужную деталь, звоните + 7 (999) 000-00-00, скорее всего она есть на складе, но ещё не попала на сайт!</p>
-        <p class="section-moto__description-price margin">от 41 900₽</p>
-        <p class="product-price section-moto">48000 руб.</p>
-      </div>
-      <div class="moto-pre__button-block">
-        <button class="moto-pre__button button">Узнать больше</button>
-      </div>
-      <img class="main-moto-picture" width="626" height="620" src="images/protection-moto-picture.png" alt="Картинка запчастей мотоцикла BMW">
-    </div>
-  </section>
-  <section class="section-popular__product">
-    <h2 class="section-popular__product-title">Популярные товары</h2>
+  <section class="section-popular__product search-popular__product">
+    <span class="section-popular__product-text">Корзина</span>
     <ul class="popular-product__list">
       <li class="popular-product__list-item popular-product__item-opacity">
-        <a class="popular-product__list-link">Каталог</a>
-      </li>
-      <li class="popular-product__list-item">
-        <a class="popular-product__list-link">Производители</a>
-      </li>
-      <li class="popular-product__list-item">
-        <a class="popular-product__list-link">Блог</a>
+        <p class="popular-product__list-link basket-goods__text">Кол-во товаров: <span class="basket-goods__count">2</span></p>
       </li>
     </ul>
   </section>
-  <div class="product-container">
-    <div class="product-card">
-      <div class="product-percent__block">
-        <img class="product-image" src="images/wing-one.png" alt="Product Image">
-        <svg class="product-percent" width="24" height="21" viewBox="0 0 24 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M9.83 3.89V7.64C9.83 8.3 9.7 8.84 9.44 9.26C9.2 9.68 8.83 9.98 8.33 10.16C7.85 10.34 7.37 10.46 6.89 10.52C6.43 10.58 5.84 10.61 5.12 10.61C4.4 10.61 3.8 10.58 3.32 10.52C2.86 10.46 2.38 10.34 1.88 10.16C1.38 9.98 1 9.68 0.74 9.26C0.5 8.84 0.38 8.3 0.38 7.64V3.89C0.38 2.55 0.8 1.66 1.64 1.22C2.5 0.759999 3.66 0.529999 5.12 0.529999C6.58 0.529999 7.73 0.759999 8.57 1.22C9.41 1.66 9.83 2.55 9.83 3.89ZM7.49 7.52V3.77C7.49 3.05 7.3 2.59 6.92 2.39C6.56 2.19 5.96 2.09 5.12 2.09C4.26 2.09 3.64 2.19 3.26 2.39C2.9 2.59 2.72 3.05 2.72 3.77V7.52C2.72 8.16 2.91 8.58 3.29 8.78C3.67 8.96 4.28 9.05 5.12 9.05C5.96 9.05 6.56 8.96 6.92 8.78C7.3 8.58 7.49 8.16 7.49 7.52ZM17.96 0.199999L8.24 20.3H5.93L15.65 0.199999H17.96ZM23.27 13.58V17.33C23.27 17.99 23.14 18.53 22.88 18.95C22.64 19.37 22.27 19.67 21.77 19.85C21.29 20.03 20.81 20.15 20.33 20.21C19.87 20.27 19.28 20.3 18.56 20.3C17.84 20.3 17.24 20.27 16.76 20.21C16.3 20.15 15.82 20.03 15.32 19.85C14.82 19.67 14.44 19.37 14.18 18.95C13.94 18.53 13.82 17.99 13.82 17.33V13.58C13.82 12.24 14.24 11.35 15.08 10.91C15.94 10.45 17.1 10.22 18.56 10.22C20.02 10.22 21.17 10.45 22.01 10.91C22.85 11.35 23.27 12.24 23.27 13.58ZM20.93 17.21V13.46C20.93 12.74 20.74 12.28 20.36 12.08C20 11.88 19.4 11.78 18.56 11.78C17.7 11.78 17.08 11.88 16.7 12.08C16.34 12.28 16.16 12.74 16.16 13.46V17.21C16.16 17.85 16.35 18.27 16.73 18.47C17.11 18.65 17.72 18.74 18.56 18.74C19.4 18.74 20 18.65 20.36 18.47C20.74 18.27 20.93 17.85 20.93 17.21Z" fill="white"/>
-        </svg>
+  <div class="basket-goods__block">
+    <div class="basket-goods__block-flex">
+      <div class="basket-goods__wrapper-image">
+        <img class="basket-goods__image" src="images/basket-goods-picture.png" width="206" height="206" alt="1 товар в корзине">
       </div>
-      <div class="product-info">
-        <div class="product-description">Pluig</div>
-        <div class="product-title">Крыло заднее (хагер) Pluig для BMW R 1200 GS</div>
-        <div class="product-text">Заднее крыло для внедорожных мотоциклов с карданом. Эффективная защита, яркий дизайн</div>
-        <div class="product-sale__block">
-          <div class="product-sale">-10%</div>
-          <div class="product-price">20000 руб.</div>
+      <div class="basket-goods__wrapper-info">
+        <div class="basket-price__block">
+          <h3 class="basket-goods__title">Слайдеры рамы продольные GSG для BMW S 1000 R 2017-20</h3>
+          <div class="basket-close__block" id="basketIcon">
+            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12.4312 24.8798C9.55313 24.8778 6.7648 23.8778 4.54133 22.0504C2.31785 20.223 0.796792 17.6813 0.237323 14.8581C-0.322147 12.0349 0.114589 9.10514 1.47312 6.56789C2.83165 4.03064 5.02791 2.043 7.68769 0.943534C10.3475 -0.155929 13.3062 -0.299194 16.0597 0.53827C18.8132 1.37573 21.1912 3.14209 22.7884 5.53628C24.3856 7.93047 25.1033 10.8044 24.819 13.6684C24.5348 16.5324 23.2663 19.2092 21.2297 21.2428C20.0752 22.3989 18.7035 23.3155 17.1935 23.9397C15.6836 24.5639 14.0651 24.8834 12.4312 24.8798ZM12.4312 0.69257C10.4951 0.688725 8.58801 1.16292 6.8792 2.07308C5.17038 2.98325 3.71271 4.30117 2.63556 5.90996C1.55841 7.51874 0.89511 9.36857 0.70453 11.2953C0.51395 13.2219 0.801988 15.166 1.54308 16.9546C2.28417 18.7432 3.45539 20.3212 4.95277 21.5485C6.45015 22.7758 8.22737 23.6145 10.1267 23.99C12.026 24.3655 13.9887 24.2664 15.8405 23.7013C17.6922 23.1362 19.3759 22.1227 20.7419 20.7506C22.38 19.1053 23.4945 17.0118 23.9449 14.7341C24.3953 12.4564 24.1613 10.0963 23.2726 7.95127C22.3838 5.80629 20.8801 3.97246 18.9508 2.68071C17.0215 1.38897 14.753 0.697181 12.4312 0.69257Z" fill="#949494"/>
+              <path d="M7.33978 17.8803C7.24725 17.8799 7.15839 17.844 7.0915 17.7801C7.02633 17.7148 6.98975 17.6263 6.98975 17.534C6.98975 17.4418 7.02633 17.3532 7.0915 17.2879L17.1619 7.22187C17.2266 7.15718 17.3143 7.12085 17.4058 7.12085C17.4973 7.12085 17.5851 7.15718 17.6498 7.22187C17.7144 7.28656 17.7508 7.37433 17.7508 7.46582C17.7508 7.55731 17.7144 7.64497 17.6498 7.70966L7.5837 17.7801C7.51815 17.8434 7.43089 17.8792 7.33978 17.8803Z" fill="#949494"/>
+              <path d="M17.4055 17.8801C17.3142 17.8799 17.2266 17.8439 17.1615 17.7799L7.09113 7.70943C7.05899 7.67745 7.03351 7.63952 7.01611 7.59766C6.99871 7.5558 6.98975 7.51092 6.98975 7.46559C6.98975 7.42025 6.99871 7.37537 7.01611 7.33351C7.03351 7.29165 7.05899 7.25362 7.09113 7.22164C7.15645 7.15648 7.24496 7.11987 7.33723 7.11987C7.4295 7.11987 7.518 7.15648 7.58333 7.22164L17.6581 17.2876C17.7058 17.3363 17.7382 17.3981 17.7513 17.465C17.7643 17.532 17.7575 17.6012 17.7315 17.6643C17.7055 17.7274 17.6616 17.7814 17.6052 17.8198C17.5488 17.8581 17.4824 17.8791 17.4142 17.8801H17.4055Z" fill="#949494"/>
+            </svg>
+            <div class="basket-tooltip" id="tooltip">Удалить из списка</div>
+            <span class="basket-goods__price">18 200 руб.</span>
+          </div>
         </div>
-        <div class="product-button__block">
-          <svg class="basket-icon" width="34" height="27" viewBox="0 0 34 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M33.5416 7.62912H11.2073L9.57185 0.331938C9.55177 0.238121 9.49605 0.15362 9.41431 0.093008C9.33258 0.0323959 9.22997 -0.000522177 9.12424 6.2647e-06H0.459083C0.338315 -2.26274e-06 0.222407 0.0430329 0.136475 0.119725C0.050544 0.196416 0.0015096 0.300607 0 0.409746C0 0.519785 0.048367 0.625312 0.134461 0.703122C0.220556 0.780932 0.337327 0.824676 0.459083 0.824676H8.75124L12.7682 18.8056V26.5851C12.7674 26.6393 12.7786 26.6932 12.8011 26.7435C12.8235 26.7938 12.8568 26.8396 12.8989 26.8782C12.9411 26.9168 12.9913 26.9474 13.0467 26.9683C13.1021 26.9893 13.1615 27 13.2215 27H25.1978C25.3196 27 25.4364 26.9563 25.5225 26.8784C25.6085 26.8006 25.6569 26.6951 25.6569 26.5851C25.6569 26.5308 25.645 26.4772 25.6219 26.4271C25.5987 26.3771 25.5648 26.3316 25.5221 26.2935C25.4794 26.2554 25.4287 26.2254 25.3731 26.2051C25.3174 26.1848 25.2578 26.1747 25.1978 26.1754H13.6978V19.1635H26.1447C26.2214 19.1631 26.2968 19.1453 26.364 19.1118C26.4311 19.0782 26.4879 19.0301 26.5292 18.9716L33.9376 8.24626C33.9785 8.18336 34 8.11174 34 8.0388C34 7.96586 33.9785 7.89429 33.9376 7.83139C33.8963 7.76985 33.8382 7.71892 33.7689 7.6835C33.6995 7.64809 33.6213 7.62935 33.5416 7.62912ZM11.391 8.45373H18.478V11.0469H11.9763L11.391 8.45373ZM12.9059 15.1959L12.1542 11.83H18.4666V15.1285H13.124C13.0425 15.139 12.9665 15.1716 12.9059 15.2219V15.1959ZM13.606 18.3077L13.0723 15.9272H13.1355H18.478V18.2195C18.4753 18.2454 18.4753 18.2715 18.478 18.2973L13.606 18.3077ZM25.5536 18.3077H19.3732C19.3759 18.2819 19.3759 18.2558 19.3732 18.2299V15.9376H25.5364L25.5536 18.3077ZM25.5536 15.1129H19.3905V11.8145H25.5536V15.1129ZM25.5536 10.9639H19.3905V8.37073H25.5536V10.9639ZM26.466 17.4416V15.8857H27.5219L26.466 17.4416ZM28.09 15.087H26.466V11.7886H30.3682L28.09 15.087ZM30.9593 10.9743H30.9019H26.4947V8.38111H32.7497L30.9593 10.9743Z" fill="white"/>
-          </svg>
-          <button class="product-button__price button">18 200 руб.</button>
+        <div class="basket-add__count-block">
+          <button class="basket-add basket-add__minus" onclick="decrement('counter')">-</button>
+          <span class="basket-add__count" id="counter">1</span>
+          <button class="basket-add basket-add__plus" onclick="increment('counter')">+</button>
+          <span class="recalculate-price">Пересчитать цену</span>
         </div>
-        <div class="product-state__block">
-          <div class="product-state__line"></div>
-          <div class="product-state__text">В наличии</div>
-        </div>
-      </div>
-    </div>
-    <div class="product-card">
-      <img class="product-image" src="images/wing-two.png" alt="Product Image">
-      <div class="product-info">
-        <div class="product-description">Pluig</div>
-        <div class="product-title">Крыло заднее (хагер) Pluig для BMW R 1200 GS</div>
-        <div class="product-text">Заднее крыло для внедорожных мотоциклов с карданом. Эффективная защита, яркий дизайн</div>
-        <div class="product-button__block">
-          <svg class="basket-icon" width="34" height="27" viewBox="0 0 34 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M33.5416 7.62912H11.2073L9.57185 0.331938C9.55177 0.238121 9.49605 0.15362 9.41431 0.093008C9.33258 0.0323959 9.22997 -0.000522177 9.12424 6.2647e-06H0.459083C0.338315 -2.26274e-06 0.222407 0.0430329 0.136475 0.119725C0.050544 0.196416 0.0015096 0.300607 0 0.409746C0 0.519785 0.048367 0.625312 0.134461 0.703122C0.220556 0.780932 0.337327 0.824676 0.459083 0.824676H8.75124L12.7682 18.8056V26.5851C12.7674 26.6393 12.7786 26.6932 12.8011 26.7435C12.8235 26.7938 12.8568 26.8396 12.8989 26.8782C12.9411 26.9168 12.9913 26.9474 13.0467 26.9683C13.1021 26.9893 13.1615 27 13.2215 27H25.1978C25.3196 27 25.4364 26.9563 25.5225 26.8784C25.6085 26.8006 25.6569 26.6951 25.6569 26.5851C25.6569 26.5308 25.645 26.4772 25.6219 26.4271C25.5987 26.3771 25.5648 26.3316 25.5221 26.2935C25.4794 26.2554 25.4287 26.2254 25.3731 26.2051C25.3174 26.1848 25.2578 26.1747 25.1978 26.1754H13.6978V19.1635H26.1447C26.2214 19.1631 26.2968 19.1453 26.364 19.1118C26.4311 19.0782 26.4879 19.0301 26.5292 18.9716L33.9376 8.24626C33.9785 8.18336 34 8.11174 34 8.0388C34 7.96586 33.9785 7.89429 33.9376 7.83139C33.8963 7.76985 33.8382 7.71892 33.7689 7.6835C33.6995 7.64809 33.6213 7.62935 33.5416 7.62912ZM11.391 8.45373H18.478V11.0469H11.9763L11.391 8.45373ZM12.9059 15.1959L12.1542 11.83H18.4666V15.1285H13.124C13.0425 15.139 12.9665 15.1716 12.9059 15.2219V15.1959ZM13.606 18.3077L13.0723 15.9272H13.1355H18.478V18.2195C18.4753 18.2454 18.4753 18.2715 18.478 18.2973L13.606 18.3077ZM25.5536 18.3077H19.3732C19.3759 18.2819 19.3759 18.2558 19.3732 18.2299V15.9376H25.5364L25.5536 18.3077ZM25.5536 15.1129H19.3905V11.8145H25.5536V15.1129ZM25.5536 10.9639H19.3905V8.37073H25.5536V10.9639ZM26.466 17.4416V15.8857H27.5219L26.466 17.4416ZM28.09 15.087H26.466V11.7886H30.3682L28.09 15.087ZM30.9593 10.9743H30.9019H26.4947V8.38111H32.7497L30.9593 10.9743Z" fill="white"/>
-          </svg>
-          <button class="product-button__price button button-margin">18 200 руб.</button>
-        </div>
-      </div>
-      <div class="product-state__block">
-        <div class="product-state__line product-state__line-red"></div>
-        <div class="product-state__text">Под заказ</div>
-      </div>
-    </div>
-    <div class="product-card">
-      <img class="product-image" src="images/wing-three.png" alt="Product Image">
-      <div class="product-info">
-        <div class="product-description">Pluig</div>
-        <div class="product-title">Крыло заднее (хагер) Pluig для BMW R 1200 GS</div>
-        <div class="product-text">Заднее крыло для внедорожных мотоциклов с карданом. Эффективная защита, яркий дизайн</div>
-        <div class="product-button__block">
-          <svg class="basket-icon" width="34" height="27" viewBox="0 0 34 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M33.5416 7.62912H11.2073L9.57185 0.331938C9.55177 0.238121 9.49605 0.15362 9.41431 0.093008C9.33258 0.0323959 9.22997 -0.000522177 9.12424 6.2647e-06H0.459083C0.338315 -2.26274e-06 0.222407 0.0430329 0.136475 0.119725C0.050544 0.196416 0.0015096 0.300607 0 0.409746C0 0.519785 0.048367 0.625312 0.134461 0.703122C0.220556 0.780932 0.337327 0.824676 0.459083 0.824676H8.75124L12.7682 18.8056V26.5851C12.7674 26.6393 12.7786 26.6932 12.8011 26.7435C12.8235 26.7938 12.8568 26.8396 12.8989 26.8782C12.9411 26.9168 12.9913 26.9474 13.0467 26.9683C13.1021 26.9893 13.1615 27 13.2215 27H25.1978C25.3196 27 25.4364 26.9563 25.5225 26.8784C25.6085 26.8006 25.6569 26.6951 25.6569 26.5851C25.6569 26.5308 25.645 26.4772 25.6219 26.4271C25.5987 26.3771 25.5648 26.3316 25.5221 26.2935C25.4794 26.2554 25.4287 26.2254 25.3731 26.2051C25.3174 26.1848 25.2578 26.1747 25.1978 26.1754H13.6978V19.1635H26.1447C26.2214 19.1631 26.2968 19.1453 26.364 19.1118C26.4311 19.0782 26.4879 19.0301 26.5292 18.9716L33.9376 8.24626C33.9785 8.18336 34 8.11174 34 8.0388C34 7.96586 33.9785 7.89429 33.9376 7.83139C33.8963 7.76985 33.8382 7.71892 33.7689 7.6835C33.6995 7.64809 33.6213 7.62935 33.5416 7.62912ZM11.391 8.45373H18.478V11.0469H11.9763L11.391 8.45373ZM12.9059 15.1959L12.1542 11.83H18.4666V15.1285H13.124C13.0425 15.139 12.9665 15.1716 12.9059 15.2219V15.1959ZM13.606 18.3077L13.0723 15.9272H13.1355H18.478V18.2195C18.4753 18.2454 18.4753 18.2715 18.478 18.2973L13.606 18.3077ZM25.5536 18.3077H19.3732C19.3759 18.2819 19.3759 18.2558 19.3732 18.2299V15.9376H25.5364L25.5536 18.3077ZM25.5536 15.1129H19.3905V11.8145H25.5536V15.1129ZM25.5536 10.9639H19.3905V8.37073H25.5536V10.9639ZM26.466 17.4416V15.8857H27.5219L26.466 17.4416ZM28.09 15.087H26.466V11.7886H30.3682L28.09 15.087ZM30.9593 10.9743H30.9019H26.4947V8.38111H32.7497L30.9593 10.9743Z" fill="white"/>
-          </svg>
-          <button class="product-button__price button button-margin">18 200 руб.</button>
-        </div>
-        <div class="product-state__block">
-          <div class="product-state__line"></div>
-          <div class="product-state__text">В наличии</div>
+        <div class="basket-description__block">
+          <span class="basket-vendor__code">Артикул: 1055025-W23-SH</span>
+          <a class="basket-goods__description" href="#">Описание товара</a>
         </div>
       </div>
     </div>
-    <div class="product-card">
-      <img class="product-image" src="images/wing-four.png" alt="Product Image">
-      <div class="product-info">
-        <div class="product-description">Pluig</div>
-        <div class="product-title">Крыло заднее (хагер) Pluig для BMW R 1200 GS</div>
-        <div class="product-text">Заднее крыло для внедорожных мотоциклов с карданом. Эффективная защита, яркий дизайн</div>
-        <div class="product-button__block">
-          <svg class="basket-icon" width="34" height="27" viewBox="0 0 34 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M33.5416 7.62912H11.2073L9.57185 0.331938C9.55177 0.238121 9.49605 0.15362 9.41431 0.093008C9.33258 0.0323959 9.22997 -0.000522177 9.12424 6.2647e-06H0.459083C0.338315 -2.26274e-06 0.222407 0.0430329 0.136475 0.119725C0.050544 0.196416 0.0015096 0.300607 0 0.409746C0 0.519785 0.048367 0.625312 0.134461 0.703122C0.220556 0.780932 0.337327 0.824676 0.459083 0.824676H8.75124L12.7682 18.8056V26.5851C12.7674 26.6393 12.7786 26.6932 12.8011 26.7435C12.8235 26.7938 12.8568 26.8396 12.8989 26.8782C12.9411 26.9168 12.9913 26.9474 13.0467 26.9683C13.1021 26.9893 13.1615 27 13.2215 27H25.1978C25.3196 27 25.4364 26.9563 25.5225 26.8784C25.6085 26.8006 25.6569 26.6951 25.6569 26.5851C25.6569 26.5308 25.645 26.4772 25.6219 26.4271C25.5987 26.3771 25.5648 26.3316 25.5221 26.2935C25.4794 26.2554 25.4287 26.2254 25.3731 26.2051C25.3174 26.1848 25.2578 26.1747 25.1978 26.1754H13.6978V19.1635H26.1447C26.2214 19.1631 26.2968 19.1453 26.364 19.1118C26.4311 19.0782 26.4879 19.0301 26.5292 18.9716L33.9376 8.24626C33.9785 8.18336 34 8.11174 34 8.0388C34 7.96586 33.9785 7.89429 33.9376 7.83139C33.8963 7.76985 33.8382 7.71892 33.7689 7.6835C33.6995 7.64809 33.6213 7.62935 33.5416 7.62912ZM11.391 8.45373H18.478V11.0469H11.9763L11.391 8.45373ZM12.9059 15.1959L12.1542 11.83H18.4666V15.1285H13.124C13.0425 15.139 12.9665 15.1716 12.9059 15.2219V15.1959ZM13.606 18.3077L13.0723 15.9272H13.1355H18.478V18.2195C18.4753 18.2454 18.4753 18.2715 18.478 18.2973L13.606 18.3077ZM25.5536 18.3077H19.3732C19.3759 18.2819 19.3759 18.2558 19.3732 18.2299V15.9376H25.5364L25.5536 18.3077ZM25.5536 15.1129H19.3905V11.8145H25.5536V15.1129ZM25.5536 10.9639H19.3905V8.37073H25.5536V10.9639ZM26.466 17.4416V15.8857H27.5219L26.466 17.4416ZM28.09 15.087H26.466V11.7886H30.3682L28.09 15.087ZM30.9593 10.9743H30.9019H26.4947V8.38111H32.7497L30.9593 10.9743Z" fill="white"/>
-          </svg>
-          <button class="product-button__price button button-margin">18 200 руб.</button>
+    <div class="basket-goods__block-flex basket-goods__block-flex--border">
+      <div class="basket-goods__wrapper-image">
+        <img class="basket-goods__image" src="images/basket-goods-picture-two.png" width="206" height="206" alt="1 товар в корзине">
+      </div>
+      <div class="basket-goods__wrapper-info">
+        <div class="basket-price__block">
+          <h3 class="basket-goods__title">Слайдеры рамы продольные GSG для BMW S 1000 R 2017-20</h3>
+          <div class="basket-close__block" id="basketIcon">
+            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12.4312 24.8798C9.55313 24.8778 6.7648 23.8778 4.54133 22.0504C2.31785 20.223 0.796792 17.6813 0.237323 14.8581C-0.322147 12.0349 0.114589 9.10514 1.47312 6.56789C2.83165 4.03064 5.02791 2.043 7.68769 0.943534C10.3475 -0.155929 13.3062 -0.299194 16.0597 0.53827C18.8132 1.37573 21.1912 3.14209 22.7884 5.53628C24.3856 7.93047 25.1033 10.8044 24.819 13.6684C24.5348 16.5324 23.2663 19.2092 21.2297 21.2428C20.0752 22.3989 18.7035 23.3155 17.1935 23.9397C15.6836 24.5639 14.0651 24.8834 12.4312 24.8798ZM12.4312 0.69257C10.4951 0.688725 8.58801 1.16292 6.8792 2.07308C5.17038 2.98325 3.71271 4.30117 2.63556 5.90996C1.55841 7.51874 0.89511 9.36857 0.70453 11.2953C0.51395 13.2219 0.801988 15.166 1.54308 16.9546C2.28417 18.7432 3.45539 20.3212 4.95277 21.5485C6.45015 22.7758 8.22737 23.6145 10.1267 23.99C12.026 24.3655 13.9887 24.2664 15.8405 23.7013C17.6922 23.1362 19.3759 22.1227 20.7419 20.7506C22.38 19.1053 23.4945 17.0118 23.9449 14.7341C24.3953 12.4564 24.1613 10.0963 23.2726 7.95127C22.3838 5.80629 20.8801 3.97246 18.9508 2.68071C17.0215 1.38897 14.753 0.697181 12.4312 0.69257Z" fill="#949494"/>
+              <path d="M7.33978 17.8803C7.24725 17.8799 7.15839 17.844 7.0915 17.7801C7.02633 17.7148 6.98975 17.6263 6.98975 17.534C6.98975 17.4418 7.02633 17.3532 7.0915 17.2879L17.1619 7.22187C17.2266 7.15718 17.3143 7.12085 17.4058 7.12085C17.4973 7.12085 17.5851 7.15718 17.6498 7.22187C17.7144 7.28656 17.7508 7.37433 17.7508 7.46582C17.7508 7.55731 17.7144 7.64497 17.6498 7.70966L7.5837 17.7801C7.51815 17.8434 7.43089 17.8792 7.33978 17.8803Z" fill="#949494"/>
+              <path d="M17.4055 17.8801C17.3142 17.8799 17.2266 17.8439 17.1615 17.7799L7.09113 7.70943C7.05899 7.67745 7.03351 7.63952 7.01611 7.59766C6.99871 7.5558 6.98975 7.51092 6.98975 7.46559C6.98975 7.42025 6.99871 7.37537 7.01611 7.33351C7.03351 7.29165 7.05899 7.25362 7.09113 7.22164C7.15645 7.15648 7.24496 7.11987 7.33723 7.11987C7.4295 7.11987 7.518 7.15648 7.58333 7.22164L17.6581 17.2876C17.7058 17.3363 17.7382 17.3981 17.7513 17.465C17.7643 17.532 17.7575 17.6012 17.7315 17.6643C17.7055 17.7274 17.6616 17.7814 17.6052 17.8198C17.5488 17.8581 17.4824 17.8791 17.4142 17.8801H17.4055Z" fill="#949494"/>
+            </svg>
+            <div class="basket-tooltip tooltip-indentation" id="tooltip">Удалить из списка</div>
+          </div>
         </div>
-      </div>
-      <div class="product-state__block">
-        <div class="product-state__line product-state__line-yellow"></div>
-        <div class="product-state__text">В пути</div>
-      </div>
-    </div>
-    <div class="pagination-block">
-      <a class="pagination-number pagination-number--active" href="#">1</a>
-      <a class="pagination-number" href="#">2</a>
-      <a class="pagination-number" href="#">3</a>
-      <a class="pagination-arrow" href="#">></a>
-    </div>
-  </div>
-  <div class="popular__title-block">
-    <h2 class="popular__articles-title">Популярные статьи</h2>
-  </div>
-  <div class="slider">
-    <div class="slider-popular__title-block"></div>
-    <div class="state-picture__wrap">
-      <div class="slider-item">
-        <img class="state-picture__one" src="images/state-picture-one.png" alt="Держатель для телефона">
-        <img class="state-picture__one" src="images/state-picture-one.png" alt="Держатель для телефона">
-        <div class="state-picture__overlay">
-          <p class="state-picture__text">Держатель телефона для мотоцикла BMW&nbsp;ConnectedRide&nbsp;Cradle. Обзор,&nbsp;установка, совместимость</p>
-          <button class="state-button__background button">Узнать больше</button>
+        <div class="basket-add__count-block basket-add__count-margin">
+          <div class="product-action__block">
+            <button class="product-action product-action__minus" onclick="decrement('count1')">-</button>
+            <span class="product-action__count" id="count1">1</span>
+            <button class="product-action product-action__plus" onclick="increment('count1')">+</button>
+            <span class="recalculate-price">Пересчитать цену</span>
+          </div>
+          <div class="basket-price__sale">
+            <span class="product-sale">-10%</span>
+            <span class="product-price">20000 руб.</span>
+            <span class="basket-goods__price">18 200 руб.</span>
+          </div>
         </div>
-      </div>
-      <div class="slider-item">
-        <img class="state-picture__two" src="images/state-picture-two.png" alt="Держатель для телефона">
-        <img class="state-picture__two" src="images/state-picture-two.png" alt="Держатель для телефона">
-        <div class="state-picture__overlay">
-          <p  class="state-picture__text">Держатель телефона для мотоцикла BMW&nbsp;ConnectedRide&nbsp;Cradle. Обзор,&nbsp;установка, совместимость</p>
-          <button class="state-button__background button">Узнать больше</button>
+        <div class="basket-description__block">
+          <span class="basket-vendor__code">Артикул: 1055025-W23-SH</span>
+          <a class="basket-goods__description" href="#">Описание товара</a>
         </div>
       </div>
     </div>
   </div>
-  <div class="state-button__block">
-    <button class="state-button button">Узнать больше</button>
+  <div class="basket-total__price-block">
+    <span class="basket-total__text">Итог</span>
+    <span class="basket-total__price">40 000 руб</span>
   </div>
-  <section class="section-brand">
-    <div class="section-brand__block">
-      <img class="section-brand__picture" src="images/brand-scroll.png" alt="Список брендов">
-    </div>
-  </section>
+  <div class="basket-button__block">
+    <button class="basket-button button">Оформить заказ</button>
+  </div>
   <footer class="footer">
     <div class="footer-block">
       <div class="footer-wrap">
@@ -620,5 +526,6 @@
   <script src="js/large-popup-block.js"></script>
   <script src="js/count-goods.js"></script>
   <script src="js/slider.js"></script>
+  <script src="js/basket-tooltip.js"></script>
 	</body>
 </html>
